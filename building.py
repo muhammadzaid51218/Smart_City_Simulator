@@ -8,7 +8,7 @@ class Building:
         self.power = power
     
     def supply_power(self,new_power):
-        self.power = new_power
+        self.power += new_power
 
     def consume_energy(self,new_power):
         self.power -= new_power

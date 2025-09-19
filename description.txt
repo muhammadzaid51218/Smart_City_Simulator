@@ -1,0 +1,17 @@
+Smart City Simulator
+
+A Python-based simulation of a smart city designed using Object-Oriented Programming (OOP) principles. This project models various city components—buildings, citizens, vehicles, traffic lights, and more—and their interactions to mimic real-world urban dynamics.
+
+Features
+
+Core classes for Buildings, Citizens, Vehicles (with inheritance for Car, Bus, EV), Traffic Lights, and the City itself.
+
+Operator overloading for intuitive interactions (e.g., combining vehicle trips).
+
+Simulation of daily activities like commuting, energy consumption, and traffic management.
+
+Exception handling for real-life challenges such as fuel shortages and traffic jams.
+
+File handling to save and load city states in JSON format.
+
+Extensible design supporting public transport scheduling, emergencies, economy, and sustainability modules.
